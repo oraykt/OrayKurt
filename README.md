@@ -23,8 +23,9 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
+before_action :set_copyright
 def set_copyright
-  @copyright = OrayKurt::Renderer.copyright
+  @copyright = Oraykurt::Renderer.copyright
 end
 ```
 ```html
